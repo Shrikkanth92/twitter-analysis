@@ -33,10 +33,10 @@ public class TwitterManager {
 	public TwitterManager() {
 		cb = new ConfigurationBuilder();
 		cb.setDebugEnabled(true);
-		cb.setOAuthConsumerKey("uzSRvnDdOOO9Cc3SsHSjKdkKI");
-		cb.setOAuthConsumerSecret("LVMotB3JQe7fttuq2GwECzbCp4TYsiefet0l2wTnw0y40nNkW0");
-		cb.setOAuthAccessToken("3977230934-b6jqw4evEKiRYPpOY1wzoxcU8fL3pCdZqEAAx6U");
-		cb.setOAuthAccessTokenSecret("8BhlNR7EbmcfDLLLAH4YtfH06Q3gnJq6lSQalBVhgueiY");
+		cb.setOAuthConsumerKey("");
+		cb.setOAuthConsumerSecret("");
+		cb.setOAuthAccessToken("");
+		cb.setOAuthAccessTokenSecret("");
 		
 		twitter = new TwitterFactory(cb.build()).getInstance();
 	}
